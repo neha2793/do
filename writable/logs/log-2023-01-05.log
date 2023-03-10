@@ -1,0 +1,36 @@
+CRITICAL - 2023-01-05 06:07:46 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH/Views/layouts/index.php on line 267.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH/Views/layouts/index.php', 267, [...])
+ 2 APPPATH/Views/layouts/index.php(267): date_format('Nov-12-2023', 'M d')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 6 APPPATH/Controllers/Main.php(38): view('layouts/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 06:08:26 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH/Views/layouts/index.php on line 267.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH/Views/layouts/index.php', 267, [...])
+ 2 APPPATH/Views/layouts/index.php(267): date_format('Nov-12-2023', 'M d')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 6 APPPATH/Controllers/Main.php(38): view('layouts/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-05 06:56:19 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+in APPPATH/Views/layouts/index.php on line 267.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() expects parameter 1 to be DateTimeInterface, string given', 'APPPATH/Views/layouts/index.php', 267, [...])
+ 2 APPPATH/Views/layouts/index.php(267): date_format('Nov-12-2023', 'M d')
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 6 APPPATH/Controllers/Main.php(38): view('layouts/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

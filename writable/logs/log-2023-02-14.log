@@ -1,0 +1,254 @@
+CRITICAL - 2023-02-14 04:01:53 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:03:47 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:05:08 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:05:24 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:05:29 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:05:46 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:06:03 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 04:06:31 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:51:32 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 04:55:51 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:11:31 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 05:13:18 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:41:24 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:56:54 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 384.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 05:59:38 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:00:25 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:01:15 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:01:42 --> App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:03:27 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:07:15 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:07:35 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 383.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:09:31 --> include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 383.
+ 1 APPPATH/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 383, [...])
+ 2 APPPATH/Controllers/Main.php(383): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:09:58 --> include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 383.
+ 1 APPPATH/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 383, [...])
+ 2 APPPATH/Controllers/Main.php(383): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:10:23 --> include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 383.
+ 1 APPPATH/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/home/valencia/2kpaid.com/app/app/Controllers/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 383, [...])
+ 2 APPPATH/Controllers/Main.php(383): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:11:51 --> include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 384.
+ 1 APPPATH/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 384, [...])
+ 2 APPPATH/Controllers/Main.php(384): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:12:05 --> include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 384.
+ 1 APPPATH/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 384, [...])
+ 2 APPPATH/Controllers/Main.php(384): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:12:49 --> include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory
+in APPPATH/Controllers/Main.php on line 384.
+ 1 APPPATH/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory', 'APPPATH/Controllers/Main.php', 384, [...])
+ 2 APPPATH/Controllers/Main.php(384): include()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:14:43 --> App\Controllers\Main::order_rcvd(): Failed opening required '2kpaid.com/app/app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 385.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:18:18 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 384.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:19:02 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 384.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:22:29 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 384.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:22:48 --> App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+in APPPATH/Controllers/Main.php on line 384.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-14 06:26:25 --> Undefined index: stripeToken
+in APPPATH/Controllers/Main.php on line 391.
+ 1 APPPATH/Controllers/Main.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stripeToken', 'APPPATH/Controllers/Main.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:29:22 --> Undefined index: stripeToken
+in APPPATH/Controllers/Main.php on line 391.
+ 1 APPPATH/Controllers/Main.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stripeToken', 'APPPATH/Controllers/Main.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:34:09 --> Undefined index: stripeToken
+in APPPATH/Controllers/Main.php on line 391.
+ 1 APPPATH/Controllers/Main.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stripeToken', 'APPPATH/Controllers/Main.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 06:39:14 --> Undefined index: stripeToken
+in APPPATH/Controllers/Main.php on line 391.
+ 1 APPPATH/Controllers/Main.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stripeToken', 'APPPATH/Controllers/Main.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 07:13:52 --> Undefined index: stripeToken
+in APPPATH/Controllers/Main.php on line 391.
+ 1 APPPATH/Controllers/Main.php(391): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: stripeToken', 'APPPATH/Controllers/Main.php', 391, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:40:04 --> Amount must be at least $0.50 usd
+in APPPATH/Libraries/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 APPPATH/Libraries/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Amount must be at least $0.50 usd', 400, '{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_H68ZcmTuioglYD?t=1676439604",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'amount_too_small')
+ 2 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('Amount must be at least $0.50 usd', 400, '{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_H68ZcmTuioglYD?t=1676439604",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'amount_too_small', 'amount')
+ 3 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_H68ZcmTuioglYD?t=1676439604",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(558): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_H68ZcmTuioglYD?t=1676439604",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_H68ZcmTuioglYD?t=1676439604",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', [...], [])
+ 7 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', [...], null)
+ 8 APPPATH/Controllers/Main.php(395): Stripe\Charge::create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-14 23:49:44 --> Undefined index: shippingcharge
+in APPPATH/Views/layouts/checkout.php on line 135.
+ 1 APPPATH/Views/layouts/checkout.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: shippingcharge', 'APPPATH/Views/layouts/checkout.php', 135, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/checkout.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/checkout', [], true)
+ 5 APPPATH/Controllers/Main.php(301): view('layouts/checkout', [])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->checkout()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

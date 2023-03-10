@@ -1,0 +1,144 @@
+CRITICAL - 2023-01-17 05:22:37 --> strpos(): Offset not contained in string
+in SYSTEMPATH/Validation/Validation.php on line 807.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos(): Offset not contained in string', 'SYSTEMPATH/Validation/Validation.php', 807, [...])
+ 2 SYSTEMPATH/Validation/Validation.php(807): strpos('required|numeric|min_length[10]]', '|', 33)
+ 3 SYSTEMPATH/Validation/Validation.php(145): CodeIgniter\Validation\Validation->splitRules([...])
+ 4 SYSTEMPATH/Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH/Controllers/Main.php(338): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 05:35:40 --> Undefined index: Shipping_address2
+in APPPATH/Controllers/Main.php on line 372.
+ 1 APPPATH/Controllers/Main.php(372): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_address2', 'APPPATH/Controllers/Main.php', 372, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 05:36:25 --> Undefined index: Shipping_address2
+in APPPATH/Controllers/Main.php on line 372.
+ 1 APPPATH/Controllers/Main.php(372): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_address2', 'APPPATH/Controllers/Main.php', 372, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 05:36:42 --> Undefined property: stdClass::$status
+in APPPATH/Controllers/Main.php on line 392.
+ 1 APPPATH/Controllers/Main.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'APPPATH/Controllers/Main.php', 392, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 05:37:25 --> Undefined property: stdClass::$status
+in APPPATH/Controllers/Main.php on line 392.
+ 1 APPPATH/Controllers/Main.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'APPPATH/Controllers/Main.php', 392, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 05:37:34 --> Undefined property: stdClass::$status
+in APPPATH/Controllers/Main.php on line 392.
+ 1 APPPATH/Controllers/Main.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$status', 'APPPATH/Controllers/Main.php', 392, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:50:01 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:52:28 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:52:32 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:52:41 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:52:48 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:52:51 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:53:06 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 371.
+ 1 APPPATH/Controllers/Main.php(371): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 371, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 22:59:51 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:00:23 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:00:27 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:00:33 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:00:43 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:00:47 --> Undefined index: Shipping_FirstName
+in APPPATH/Controllers/Main.php on line 339.
+ 1 APPPATH/Controllers/Main.php(339): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_FirstName', 'APPPATH/Controllers/Main.php', 339, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-17 23:01:05 --> Undefined index: Shipping_lastName
+in APPPATH/Controllers/Main.php on line 344.
+ 1 APPPATH/Controllers/Main.php(344): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Shipping_lastName', 'APPPATH/Controllers/Main.php', 344, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

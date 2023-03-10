@@ -1,0 +1,22 @@
+CRITICAL - 2023-01-11 23:38:11 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 58.
+ 1 APPPATH/Views/layouts/container5.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 58, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(216): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-11 23:38:40 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 58.
+ 1 APPPATH/Views/layouts/container5.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 58, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(216): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

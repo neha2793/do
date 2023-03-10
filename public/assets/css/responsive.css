@@ -1,0 +1,484 @@
+@media all and (min-width: 320px) and (max-width: 991px) {
+button.navbar-toggler {
+    padding: 0px !important;
+    position: relative;
+    box-shadow: none !important;
+    outline: none !important;
+}
+button.navbar-toggler span.navbar-toggler-icon {
+    background: none !important;
+    position: relative;
+    border-top: 2px solid #87ef43;
+    height: 22px !important;
+}
+button.navbar-toggler span.navbar-toggler-icon::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background: #87ef43;
+}
+button.navbar-toggler span.navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    width: 100%;
+    height: 2px;
+    background: #87ef43;
+}
+.header-sec nav.navbar li.nav-item a.nav-link {
+    font-size: 16px;
+    padding: 3px 2px;
+    line-height: 26px;
+    margin-top: 8px;
+}
+.dropdown-d {
+    margin-bottom: 11px;
+}
+.header-sec {
+    background-color: rgba(0,0,0,.9);
+}
+.landing-sec .owl-carousel .owl-nav {
+    display: none !important;
+}
+}
+
+
+
+/*320-991*/
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+.shopby .owl-carousel .owl-nav {
+    display: none !important;
+}
+.clients-sec .owl-carousel .owl-nav {
+    display: none !important;
+}
+.mainbanner {
+    min-height: 430px;
+    padding: 160px 0px 70px;
+}
+.heading-sec h2 {
+    font-size: 24px;
+    padding-left: 45px;
+}
+.heading-sec h2::after {
+    width: 30px;
+}
+.shopby .owl-carousel .owl-dots {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.shopby .owl-carousel .owl-dots button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.shopby .owl-carousel .owl-dots button.owl-dot.active span {
+    background: #ccc;
+}
+.shopby .owl-carousel .owl-dots span {
+    width: 15px;
+    height: 15px;
+    background: #000;
+    display: block;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.shopby {
+    padding: 60px 0px 60px 0px;
+}
+.bannershop-btn h2 {
+    font-size: 32px;
+}
+.landing-sec {
+    padding: 60px 0px;
+}
+.product-card {
+    margin-bottom: 20px;
+}
+.product-viewmore {
+    margin-top: 20px;
+}
+.clients-sec {
+    padding: 60px 0px 80px;
+}
+.ourlawyers-card {
+    margin: 40px 10px 0px;
+    padding: 20px;
+    box-shadow: none;
+}
+.ourlawyers-img {
+    padding-left: 68px;
+    margin-bottom: 17px;
+}
+.clients-sec .owl-carousel .owl-dots {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.clients-sec .owl-carousel .owl-dots button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.clients-sec .owl-carousel .owl-dots button.owl-dot.active span {
+    background: #ccc;
+}
+.clients-sec .owl-carousel .owl-dots span {
+    width: 15px;
+    height: 15px;
+    background: #000;
+    display: block;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.footer-sec {
+    padding: 50px 0px 0px;
+}
+.footer-nav {
+    margin-top: 20px;
+}
+.innerbanner-sec {
+    padding: 130px 0px 60px;
+}
+.innerbanner-sec h3.heading-d {
+    font-size: 24px;
+}
+.thankbox {
+    padding: 40px 20px;
+}
+.thankbox img.img-fluid {
+    width: 91px;
+}
+.thankbox h2 {
+    font-size: 22px;
+}
+.product-single-desc {
+    margin-top: 40px;
+}
+.howitworktop h2 {
+    font-size: 58px;
+    line-height: 71px;
+}
+ul.stepul li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.featured-left {
+    padding: 0px 20px;
+}
+.featured-left p {
+    font-size: 24px;
+    line-height: 33px;
+}
+.featured-left h5 {
+   font-size: 24px;
+    line-height: 33px;
+}
+.featured-left h3 {
+    font-size: 58px;
+    line-height: 67px;
+    margin-bottom: 20px;
+}
+.featured-rightbtn .btn.btn-info {
+    margin: 10px 13px !important;
+}
+.howitworktop h4 {
+    font-size: 29px;
+    line-height: 42px;
+}
+.featured-right {
+    text-align: center;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.step-designimg {
+    height: auto;
+}
+.login-page-design {
+    padding: 30px 20px;
+}
+.slime-sec {
+    padding: 60px 0px;
+}
+.slime-sec h4 {
+    font-size: 55px;
+    line-height: 53px;
+    margin-bottom: 50px;
+}
+.shopbybg {
+    padding-bottom: 0px;
+}
+.shopby-convideobg {
+    width: 192px;
+}
+.asof {
+    width: 72px;
+}
+.shopby-con ul {
+    top: 11px;
+    left: 0px;
+    padding: 0px 14px;
+}
+.shopby-con ul li a {
+    width: 39px;
+    padding: 5px 0px;
+}
+.shopby-con {
+    width: 290px;
+    margin: 0px auto 50px;
+}
+.featured-left img.img-fluid {
+    width: 170px;
+}
+.login-sec {
+    padding: 30px 0px;
+}
+.login-page-design h4 {
+    font-size: 20px;
+}
+.aboutpage-sec {
+    padding: 20px 0px 50px;
+}
+.aboutpage-desc {
+    margin-top: 30px;
+}
+.contact-form {
+    padding: 30px;
+}
+.contact-btn .btn.btn-info {
+    padding: 10px 58px !important;
+}
+.featured-right video {
+    height: auto;
+}
+.featured-sec .owl-dots {
+    display: none !important;
+    text-align: center;
+    margin-top: 0px;
+}
+.profile-imggroup {
+    flex-wrap: wrap;
+}
+.profileinfo {
+    width: 100%;
+}
+.box {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+ul.socialslinks {
+    position: static;
+    text-align: center;
+}
+.profileinfo ul li {
+    font-size: 13px;
+}
+.profile-left {
+    padding: 30px 10px;
+    height: auto;
+    margin-bottom: 0px;
+    background-size: 100% 25% !important;
+}
+.profileinfo ul {
+    margin: 20px 0px 0px 0px;
+}
+.profile-details {
+    padding: 0px 15px 30px;
+}
+.profilemynft {
+    padding-top: 10px;
+}
+.profilemynft li.nav-item a.nav-link {
+    font-size: 15px;
+}
+.profilemynft .tab-content ul li {
+    width: 50%;
+}
+.footer-nav h2 {
+    font-size: 15px;
+    margin: 2px 0px 11px 0px;
+}
+.footer-nav ul li a {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.creatorsbanner {
+    padding: 60px 0px 60px;
+}
+}
+
+/*320-767*/
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+ .shopby-convideobg {
+    width: 215px;
+}  
+.asof {
+    width: 99px;
+}
+.shopby-con ul {
+    top: -16px;
+}
+}
+/*768-991*/ 
+
+@media all and (min-width: 992px) and (max-width: 1024px) {
+ .shopby-convideobg {
+    width: 291px;
+}
+.asof {
+    width: 99px;
+}
+.shopby-con ul {
+    top: 16px;
+}
+}
+/*992-1024*/ 
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.shopby .owl-carousel .owl-dots {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.shopby .owl-carousel .owl-dots button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.shopby .owl-carousel .owl-dots button.owl-dot.active span {
+    background: #ccc;
+}
+.shopby .owl-carousel .owl-dots span {
+    width: 15px;
+    height: 15px;
+    background: #000;
+    display: block;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.shopby .owl-carousel .owl-nav {
+    display: none !important;
+} 
+.clients-sec .owl-carousel .owl-nav {
+    display: none !important;
+}   
+.ourlawyers-card {
+    margin: 40px 30px 40px;
+    padding: 30px;
+}
+.clients-sec .owl-carousel .owl-dots {
+    display: block !important;
+    text-align: center;
+    margin-top: 20px;
+}
+.clients-sec .owl-carousel .owl-dots button {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.clients-sec .owl-carousel .owl-dots button.owl-dot.active span {
+    background: #ccc;
+}
+.clients-sec .owl-carousel .owl-dots span {
+    width: 15px;
+    height: 15px;
+    background: #000;
+    display: block;
+    border-radius: 100px;
+    margin: 0px 4px;
+}
+.product-card {
+    padding: 10px;
+}
+.howitworktop h2 {
+    font-size: 58px;
+    line-height: 71px;
+}
+ul.stepul li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.featured-left {
+    padding: 0px 20px;
+}
+.featured-left p {
+    font-size: 24px;
+    line-height: 33px;
+}
+.featured-left h5 {
+   font-size: 24px;
+    line-height: 33px;
+}
+.featured-left h3 {
+    font-size: 58px;
+    line-height: 78px;
+    margin-bottom: 20px;
+}
+.featured-rightbtn .btn.btn-info {
+    margin: 10px 13px !important;
+}
+.howitworktop h4 {
+    font-size: 29px;
+    line-height: 42px;
+}
+.featured-right {
+    text-align: center;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+.step-designimg {
+    height: auto;
+}
+.slime-card h3 {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 15px 0px;
+}
+.slime-img {
+    padding: 20px 20px;
+}
+.footer-nav h2 {
+    font-size: 15px;
+}
+.footer-nav ul li a {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 18px;
+}
+}
+/*768-1024*/ 
+
+
+@media all and (min-width: 1025px) and (max-width: 1199px) {
+ .shopby-convideobg {
+    width: 291px;
+}
+.asof {
+    width: 99px;
+}
+.shopby-con ul {
+    top: 16px;
+}   
+}
+/*1025-1199*/ 
+
+
+@media all and (min-width: 1200px) and (max-width: 1280px) {
+    
+}
+/*1200-1280*/ 
+
+
+    
+    
+
+
+

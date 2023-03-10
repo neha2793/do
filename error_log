@@ -1,0 +1,4 @@
+[30-Nov-2022 11:30:06 UTC] PHP Warning:  require(/home/valencia/2kpaid.com/app/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/index.php on line 32
+[30-Nov-2022 11:30:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/valencia/2kpaid.com/app/../app/Config/Paths.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/index.php on line 32
+[30-Nov-2022 11:30:08 UTC] PHP Warning:  require(/home/valencia/2kpaid.com/app/../app/Config/Paths.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/index.php on line 32
+[30-Nov-2022 11:30:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/valencia/2kpaid.com/app/../app/Config/Paths.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/index.php on line 32

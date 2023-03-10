@@ -1,0 +1,61 @@
+CRITICAL - 2023-02-13 03:38:08 --> Undefined property: stdClass::$messages
+in APPPATH/Controllers/Main.php on line 443.
+ 1 APPPATH/Controllers/Main.php(443): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$messages', 'APPPATH/Controllers/Main.php', 443, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:50:07 --> Class 'App\Controllers\Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:50:53 --> Class 'App\Controllers\Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:51:00 --> Class 'App\Controllers\Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:55:28 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:55:41 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 03:56:06 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 04:11:43 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 04:11:49 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-13 04:12:53 --> Class 'Stripe\Stripe' not found
+in APPPATH/Controllers/Main.php on line 383.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

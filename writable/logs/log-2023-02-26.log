@@ -1,0 +1,596 @@
+CRITICAL - 2023-02-26 07:09:29 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:09:57 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:10:50 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:11:58 --> Undefined variable: container1
+in APPPATH/Views/layouts/container4.php on line 21.
+ 1 APPPATH/Views/layouts/container4.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container4.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container4.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container4', [], true)
+ 5 APPPATH/Controllers/Main.php(229): view('layouts/container4', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container4()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:12:06 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:12:14 --> Undefined variable: container1
+in APPPATH/Views/layouts/container4.php on line 21.
+ 1 APPPATH/Views/layouts/container4.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container4.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container4.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container4', [], true)
+ 5 APPPATH/Controllers/Main.php(229): view('layouts/container4', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container4()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:12:21 --> Undefined variable: container1
+in APPPATH/Views/layouts/container3.php on line 21.
+ 1 APPPATH/Views/layouts/container3.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container3.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container3.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container3', [], true)
+ 5 APPPATH/Controllers/Main.php(196): view('layouts/container3', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container3()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:15:25 --> Undefined variable: container1
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:21:03 --> Undefined variable: container1
+in APPPATH/Views/layouts/container3.php on line 22.
+ 1 APPPATH/Views/layouts/container3.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container3.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container3.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container3', [], true)
+ 5 APPPATH/Controllers/Main.php(196): view('layouts/container3', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container3()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:21:19 --> Undefined variable: container1
+in APPPATH/Views/layouts/container3.php on line 22.
+ 1 APPPATH/Views/layouts/container3.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container3.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container3.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container3', [], true)
+ 5 APPPATH/Controllers/Main.php(196): view('layouts/container3', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container3()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:21:23 --> Undefined variable: container1
+in APPPATH/Views/layouts/container3.php on line 22.
+ 1 APPPATH/Views/layouts/container3.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container1', 'APPPATH/Views/layouts/container3.php', 22, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container3.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container3', [], true)
+ 5 APPPATH/Controllers/Main.php(196): view('layouts/container3', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container3()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:21:38 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:21:39 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:35:22 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:36:04 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:36:08 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:36:11 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:36:16 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 07:36:21 --> Undefined variable: container5
+in APPPATH/Views/layouts/slimecontainer.php on line 34.
+ 1 APPPATH/Views/layouts/slimecontainer.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: container5', 'APPPATH/Views/layouts/slimecontainer.php', 34, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/slimecontainer.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/slimecontainer', [], true)
+ 5 APPPATH/Controllers/Main.php(131): view('layouts/slimecontainer', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->slimecontainer()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:38:20 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:41:57 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:43:24 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:43:54 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:44:17 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:44:23 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 21.
+ 1 APPPATH/Views/layouts/billing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 21, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 22:48:10 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 24.
+ 1 APPPATH/Views/layouts/billing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:01:45 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 24.
+ 1 APPPATH/Views/layouts/billing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:03:13 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 24.
+ 1 APPPATH/Views/layouts/billing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:11:07 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 24.
+ 1 APPPATH/Views/layouts/billing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:16:53 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:17:07 --> Undefined property: stdClass::$id
+in APPPATH/Views/layouts/index.php on line 264.
+ 1 APPPATH/Views/layouts/index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH/Views/layouts/index.php', 264, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/index.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/index', [], true)
+ 5 APPPATH/Controllers/Main.php(79): view('layouts/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:31:57 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 24.
+ 1 APPPATH/Views/layouts/billing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:32:45 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:32:49 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:32:53 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:32:59 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:33:21 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:33:43 --> Trying to get property 'Item_ID' of non-object
+in APPPATH/Views/layouts/billing.php on line 25.
+ 1 APPPATH/Views/layouts/billing.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Item_ID\' of non-object', 'APPPATH/Views/layouts/billing.php', 25, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/billing.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/billing', [], true)
+ 5 APPPATH/Controllers/Main.php(670): view('layouts/billing', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:40:29 --> You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.
+in APPPATH/Libraries/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 APPPATH/Libraries/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.', 400, '{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PkzfFpQJFRobPJ?t=1677476429",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'token_already_used')
+ 2 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.', 400, '{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PkzfFpQJFRobPJ?t=1677476429",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'token_already_used', null)
+ 3 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PkzfFpQJFRobPJ?t=1677476429",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(558): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PkzfFpQJFRobPJ?t=1677476429",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "token_already_used",
+    "doc_url": "https://stripe.com/docs/error-codes/token-already-used",
+    "message": "You cannot use a Stripe token more than once: tok_1MfzReHksjqOOL27mZBvKIRa.",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_PkzfFpQJFRobPJ?t=1677476429",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', [...], [])
+ 7 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', [...], null)
+ 8 APPPATH/Controllers/Main.php(442): Stripe\Charge::create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:45:55 --> Amount must be at least $0.50 usd
+in APPPATH/Libraries/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38.
+ 1 APPPATH/Libraries/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('Amount must be at least $0.50 usd', 400, '{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_HlFlhJACeRCbOb?t=1677476755",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'amount_too_small')
+ 2 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('Amount must be at least $0.50 usd', 400, '{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_HlFlhJACeRCbOb?t=1677476755",
+    "type": "invalid_request_error"
+  }
+}
+', [...], Object(Stripe\Util\CaseInsensitiveArray), 'amount_too_small', 'amount')
+ 3 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(175): Stripe\ApiRequestor::_specificAPIError('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_HlFlhJACeRCbOb?t=1677476755",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...], [...])
+ 4 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(558): Stripe\ApiRequestor->handleErrorResponse('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_HlFlhJACeRCbOb?t=1677476755",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray), [...])
+ 5 APPPATH/Libraries/stripe/stripe-php/lib/ApiRequestor.php(124): Stripe\ApiRequestor->_interpretResponse('{
+  "error": {
+    "code": "amount_too_small",
+    "doc_url": "https://stripe.com/docs/error-codes/amount-too-small",
+    "message": "Amount must be at least $0.50 usd",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_HlFlhJACeRCbOb?t=1677476755",
+    "type": "invalid_request_error"
+  }
+}
+', 400, Object(Stripe\Util\CaseInsensitiveArray))
+ 6 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Request.php(78): Stripe\ApiRequestor->request('post', '/v1/charges', [...], [])
+ 7 APPPATH/Libraries/stripe/stripe-php/lib/ApiOperations/Create.php(25): Stripe\ApiResource::_staticRequest('post', '/v1/charges', [...], null)
+ 8 APPPATH/Controllers/Main.php(442): Stripe\Charge::create([...])
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:48:53 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:49:29 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:49:33 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:49:41 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-26 23:49:44 --> Undefined property: stdClass::$shippingContainer
+in APPPATH/Views/layouts/container5.php on line 23.
+ 1 APPPATH/Views/layouts/container5.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$shippingContainer', 'APPPATH/Views/layouts/container5.php', 23, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container5.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container5', [], true)
+ 5 APPPATH/Controllers/Main.php(263): view('layouts/container5', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container5()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

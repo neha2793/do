@@ -1,0 +1,66 @@
+CRITICAL - 2022-12-02 06:38:41 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:39:24 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:39:43 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:40:04 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:40:35 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 06:49:06 --> Undefined variable: order_id
+in APPPATH/Views/layouts/order_rcvd.php on line 24.
+ 1 APPPATH/Views/layouts/order_rcvd.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: order_id', 'APPPATH/Views/layouts/order_rcvd.php', 24, [])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/order_rcvd.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/order_rcvd', [], true)
+ 5 APPPATH/Controllers/Main.php(278): view('layouts/order_rcvd')
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

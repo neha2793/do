@@ -1,0 +1,229 @@
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[16-Jan-2023 05:18:02 America/Chicago] PHP Deprecated:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 350
+[09-Feb-2023 03:52:18 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/valencia/2kpaid.com/app/app/Views/layouts/container1.php on line 20
+[09-Feb-2023 04:23:39 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/valencia/2kpaid.com/app/app/Views/layouts/container1.php on line 20
+[09-Feb-2023 04:23:47 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/valencia/2kpaid.com/app/app/Views/layouts/container1.php on line 20
+[14-Feb-2023 04:01:53 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:01:53 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:03:47 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:03:47 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:08 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:08 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:24 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:24 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:29 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:29 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:46 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:05:46 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:06:03 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 04:06:03 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 05:11:31 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 05:11:31 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 05:59:38 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/vendor/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:383
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 383, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 05:59:38 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:00:25 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/vendor/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:383
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 383, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:00:25 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:01:15 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 06:01:15 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 06:01:42 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:382
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ve...', '/home/valencia/...', 382, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(382): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 06:01:42 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 382
+[14-Feb-2023 06:03:27 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/app/vendor/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:383
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 383, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:03:27 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/app/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:07:15 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:383
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 383, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:07:15 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:07:35 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:383
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 383, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(383): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:07:35 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 383
+[14-Feb-2023 06:14:43 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(2kpaid.com/app/app/Libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:385
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(385): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(2k...', '/home/valencia/...', 385, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(385): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 385
+[14-Feb-2023 06:14:43 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required '2kpaid.com/app/app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 385
+[14-Feb-2023 06:18:18 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/Libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:384
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 384, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:18:18 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:19:02 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/Libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:384
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 384, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:19:02 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:22:29 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/Libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:384
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 384, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:22:29 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:22:48 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(app/Libraries/stripe/stripe-php/init.php): failed to open stream: No such file or directory in /home/valencia/2kpaid.com/app/app/Controllers/Main.php:384
+Stack trace:
+#0 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(ap...', '/home/valencia/...', 384, Array)
+#1 /home/valencia/2kpaid.com/app/app/Controllers/Main.php(384): require_once()
+#2 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(927): App\Controllers\Main->order_rcvd()
+#3 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 /home/valencia/2kpaid.com/app/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/valencia/2kpaid.com/app/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384
+[14-Feb-2023 06:22:48 America/Chicago] PHP Fatal error:  App\Controllers\Main::order_rcvd(): Failed opening required 'app/Libraries/stripe/stripe-php/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/valencia/2kpaid.com/app/app/Controllers/Main.php on line 384

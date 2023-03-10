@@ -1,0 +1,33 @@
+CRITICAL - 2023-02-15 06:09:57 --> Undefined index: width
+in APPPATH/Views/layouts/container1.php on line 53.
+ 1 APPPATH/Views/layouts/container1.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: width', 'APPPATH/Views/layouts/container1.php', 53, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container1.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container1', [], true)
+ 5 APPPATH/Controllers/Main.php(84): view('layouts/container1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container1()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 06:59:26 --> Undefined index: width
+in APPPATH/Views/layouts/container1.php on line 53.
+ 1 APPPATH/Views/layouts/container1.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: width', 'APPPATH/Views/layouts/container1.php', 53, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container1.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container1', [], true)
+ 5 APPPATH/Controllers/Main.php(84): view('layouts/container1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container1()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-15 07:00:28 --> Undefined variable: width
+in APPPATH/Views/layouts/container1.php on line 58.
+ 1 APPPATH/Views/layouts/container1.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: width', 'APPPATH/Views/layouts/container1.php', 58, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/container1.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('layouts/container1', [], true)
+ 5 APPPATH/Controllers/Main.php(84): view('layouts/container1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->container1()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

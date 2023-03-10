@@ -1,0 +1,56 @@
+CRITICAL - 2023-03-02 06:17:07 --> Undefined index: cid
+in APPPATH/Controllers/Main.php on line 620.
+ 1 APPPATH/Controllers/Main.php(620): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cid', 'APPPATH/Controllers/Main.php', 620, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:08:28 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:22:21 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:23:33 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:23:39 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:24:07 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:24:15 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 23:24:26 --> Undefined variable: data
+in APPPATH/Controllers/Main.php on line 677.
+ 1 APPPATH/Controllers/Main.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH/Controllers/Main.php', 677, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Main->nft_billing()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
